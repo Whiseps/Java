@@ -1,14 +1,14 @@
 import java.util.Random;
 
 public class Human {
-    String name;
-    String surname;
-    int yearOfBirth;
-    int iq;
-    Pet pet;
-    Human mother;
-    Human father;
-    String[][] schedule;
+    public String name;
+    public String surname;
+    public int yearOfBirth;
+    public int iq;
+    public Pet pet;
+    public Human mother;
+    public Human father;
+    public String[][] schedule;
 
     public Human(String name, String surname, int yearOfBirth) {
         this.name = name;
