@@ -29,7 +29,7 @@ public class Family {
             return;
         }
 
-        int childIndex = -99;
+        int childIndex = -1;
         for (int i = 0; i < children.length; i++) {
             if (children[i].equals(child)) {
                 childIndex = i;
@@ -37,7 +37,9 @@ public class Family {
             }
         }
 
-        if (childIndex != -99) {
+        if (childIndex != -1) {
+            children[childIndex].setFamily(null);
+
             Human[] updatedChildren = new Human[children.length - 1];
             for (int i = 0, j = 0; i < children.length; i++) {
                 if (i != childIndex) {
