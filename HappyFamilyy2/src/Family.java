@@ -24,9 +24,9 @@ public class Family {
     }
 
     // AS WRITTEN IN THE INSTRUCTIONS -> Add the method deleteChild(Human child) to the Family
-    public void deleteChild(Human child) {
+    public boolean deleteChild(Human child) {
         if (child == null || children.length == 0) {
-            return;
+            return false;
         }
 
         int childIndex = -1;
@@ -48,8 +48,33 @@ public class Family {
                 }
             }
             children = updatedChildren;
+
+            return true;
+        } else {
+            return false;
         }
     }
+
+    public boolean deleteChild(int index) {
+        if (index < 0 || index >= children.length) {
+            return false;
+        }
+
+        children[index].setFamily(null);
+
+        Human[] updatedChildren = new Human[children.length - 1];
+        for (int i = 0, j = 0; i < children.length; i++) {
+            if (i != index) {
+                updatedChildren[j] = children[i];
+                j++;
+            }
+        }
+        children = updatedChildren;
+
+        return true;
+    }
+
+
 
     public void addChild(Human child) {
         if (child == null) {
