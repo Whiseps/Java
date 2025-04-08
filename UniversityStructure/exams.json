@@ -1,0 +1,26 @@
+[ {
+  "courseName" : "Java Programming",
+  "examDate" : [ 2025, 5, 15 ],
+  "durationInMinutes" : 120,
+  "location" : "Room 101"
+}, {
+  "courseName" : "Data Structures",
+  "examDate" : [ 2025, 5, 20 ],
+  "durationInMinutes" : 90,
+  "location" : "Room 102"
+}, {
+  "courseName" : "Mathematics",
+  "examDate" : [ 2025, 5, 25 ],
+  "durationInMinutes" : 60,
+  "location" : "Room 103"
+}, {
+  "courseName" : "Physics",
+  "examDate" : [ 2025, 5, 30 ],
+  "durationInMinutes" : 120,
+  "location" : "Room 104"
+}, {
+  "courseName" : "Chemistry",
+  "examDate" : [ 2025, 6, 1 ],
+  "durationInMinutes" : 90,
+  "location" : "Room 105"
+} ]

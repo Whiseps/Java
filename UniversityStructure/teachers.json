@@ -1,0 +1,23 @@
+[ {
+  "name" : "Charles",
+  "surname" : "Xavier",
+  "age" : 60,
+  "gender" : "Male",
+  "nationality" : "American",
+  "subject" : "Mutant Studies",
+  "yearsAtUniversity" : 20,
+  "yearsOfExperience" : 40,
+  "salary" : 10000.0,
+  "classesPerWeek" : 15
+}, {
+  "name" : "Emmett",
+  "surname" : "Brown",
+  "age" : 65,
+  "gender" : "Male",
+  "nationality" : "American",
+  "subject" : "Physics",
+  "yearsAtUniversity" : 40,
+  "yearsOfExperience" : 50,
+  "salary" : 12000.0,
+  "classesPerWeek" : 8
+} ]

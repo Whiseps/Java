@@ -1,0 +1,51 @@
+[ {
+  "courseName" : "Java Programming",
+  "credits" : 6,
+  "countPerWeek" : 4,
+  "exam" : {
+    "courseName" : "Java Programming",
+    "examDate" : [ 2025, 5, 15 ],
+    "durationInMinutes" : 120,
+    "location" : "Room 101"
+  }
+}, {
+  "courseName" : "Data Structures",
+  "credits" : 5,
+  "countPerWeek" : 2,
+  "exam" : {
+    "courseName" : "Data Structures",
+    "examDate" : [ 2025, 5, 20 ],
+    "durationInMinutes" : 90,
+    "location" : "Room 102"
+  }
+}, {
+  "courseName" : "Mathematics",
+  "credits" : 5,
+  "countPerWeek" : 4,
+  "exam" : {
+    "courseName" : "Mathematics",
+    "examDate" : [ 2025, 5, 25 ],
+    "durationInMinutes" : 60,
+    "location" : "Room 103"
+  }
+}, {
+  "courseName" : "Physics",
+  "credits" : 4,
+  "countPerWeek" : 2,
+  "exam" : {
+    "courseName" : "Physics",
+    "examDate" : [ 2025, 5, 30 ],
+    "durationInMinutes" : 120,
+    "location" : "Room 104"
+  }
+}, {
+  "courseName" : "Chemistry",
+  "credits" : 3,
+  "countPerWeek" : 3,
+  "exam" : {
+    "courseName" : "Chemistry",
+    "examDate" : [ 2025, 6, 1 ],
+    "durationInMinutes" : 90,
+    "location" : "Room 105"
+  }
+} ]
